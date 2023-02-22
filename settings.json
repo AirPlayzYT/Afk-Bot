@@ -1,13 +1,13 @@
 {
   "bot-account": {
     "username": "bot",
-    "password": "your_password",
+    "password": "password",
     "type": "microsoft"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "a1rworld.aternos.me",
+    "port": 19119,
     "version": "1.19.3"
   },
 
@@ -25,9 +25,9 @@
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
       "hit": true,
       "rotate": false,
 
@@ -44,14 +44,14 @@
 
       "messages": [
         "I'm a regular player ",
-        "My owner is urFate_ ",
+        "My owner is A1rPl4yzYT ",
         "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "aaa"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 1000
   }
 }
